@@ -1,0 +1,23 @@
+{
+	"name": "y",
+	"description": "limon",
+	"main": "",
+	"authors": [
+    "sfdevelop"
+  ],
+	"license": "MIT",
+	"homepage": "",
+	"private": true,
+	"ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+	"dependencies": {
+		"jQuery": "Jquery#^3.5.1",
+		"lazyload": "^3.2.2",
+		"slick-carousel": "^1.8.1"
+	}
+}

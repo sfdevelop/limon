@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "dist",
+			"path": "..\\dist"
+		},
+		{
+			"name": "limon",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"cSpell.ignoreWords": [
+			"categ",
+			"collapser",
+			"exoregular",
+			"scroller",
+			"sidenav",
+			"stikly",
+			"toup",
+			"vacansie",
+			"слайдшоу"
+		]
+	}
+}

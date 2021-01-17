@@ -1,0 +1,408 @@
+.red {
+    background: red;
+}
+.bg-left{
+    background: 
+    url(../i/bg-left.png) no-repeat left top,
+    url(../i/bg-right.png) no-repeat right top,
+    url(../i/bg-down.png) no-repeat right bottom;
+
+}
+
+.fixedsf, .black {
+    background-color: #1d2228;
+}
+
+* {
+    outline: none !important;
+}
+
+.slick-dots {
+    text-align: left;
+    padding-left: 15px;
+    bottom: -10px;
+
+    li {
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 10px;
+        height: 10px;
+
+        button {
+            // background-color: red;
+            border-radius: 50%;
+            border: 1px solid $green;
+            height: 10px;
+            width: 10px;
+
+            &:before {
+                width: 10px;
+                height: 10px;
+                content: "";
+            }
+        }
+    }
+
+    .slick-active {
+        background-color: $green;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        // border:  1px solid $green;
+
+    }
+}
+
+.btn {
+
+    background: #d0d832;
+    filter: drop-shadow(0px 0px 15px rgba(84, 176, 54, 0.4));
+    border-radius: 30px;
+
+    // &:hover {
+    //     // background: linear-gradient(to left, #d0d832 0%, #54b036 100%);
+    // }
+}
+
+.logo-menu {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 9;
+
+    img {
+        width: 35px;
+    }
+}
+
+.dropdown__menu {
+    position: absolute;
+    right: 80px;
+    top: 20px;
+    z-index: 9;
+}
+
+.user_mobile {
+    position: absolute;
+    right: 120px;
+    top: 20px;
+    z-index: 9;
+}
+
+.absolute {
+    position: absolute;
+    margin: 0 auto;
+}
+
+.relative {
+    position: relative;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.line {
+    width: 166px;
+    background: transparent;
+    border: 1px solid $green;
+
+}
+
+.menu {
+    ul {
+        list-style: none;
+
+        a {
+            text-transform: uppercase;
+            color: $white;
+        }
+    }
+
+    a {
+        color: $white;
+    }
+
+    .user {
+        width: 30px;
+    }
+
+    .small {
+        color: $yellow;
+    }
+
+}
+
+.btn-drpdown {
+    background: none;
+    border: none;
+    color: $white;
+}
+
+.stikly {
+    position: sticky;
+    top: 0;
+}
+
+.slider {
+    .absolute {
+        height: 100%;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+
+        font-weight: normal;
+        font-size: 20px;
+        color: $white;
+        text-transform: uppercase;
+    }
+}
+
+.card {
+    display: flex;
+
+    h5 {
+        font-family: "Barkentina Test";
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 1;
+    }
+
+    h6 {
+        font-size: 18px;
+        // margin: auto 0 0;
+    }
+
+    p {
+        font-size: 14px;
+        // margin: auto 0 0;
+    }
+
+    a {
+        color: $black;
+    }
+
+    .card-down {
+        margin: auto 0 0;
+    }
+
+    .btn {
+        background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
+        border: olive;
+    }
+}
+
+.offers {
+    background-image: url(../i/beack-01.jpg);
+    background-position: right;
+    background-size: cover;
+
+    .absolute {
+        position: absolute;
+    }
+}
+.card{
+    .order {
+        background: #effb00;
+        border-radius: 0px 10px;  
+        margin-top: 50%;
+        font-size: 14px;
+    }
+}
+
+.main_why {
+    background: url(../i/beack-02.jpg);
+    // background-position: right;
+    background-size: cover;
+
+    h2 {
+        color: $white;
+    }
+
+    h5 {
+        font-family: "Barkentina Test";
+        font-size: 27px;
+        line-height: 1.1;
+        color: $white;
+    }
+
+    p {
+        color: $white;
+        // line-height: 1.1;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .btn {
+        background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
+        border: olive;
+    }
+}
+
+.main_offer {
+    background-image: url(../i/beack-03.jpg);
+    background-position: left;
+    background-size: cover;
+
+    &__box {
+        border-radius: 25px 0px;
+        background: $white;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+
+        a {
+            color: $green;
+            margin: auto 0 0;
+        }
+    }
+
+    h5 {
+        font-family: "Barkentina Test";
+        font-size: 27px;
+        line-height: 1.1;
+    }
+
+    p {
+        font-size: 14px;
+        margin: auto 0 0;
+    }
+
+    .btn {
+        background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
+        border: olive;
+    }
+}
+
+.main_send {
+    background-image: url(../i/beack-04.jpg);
+    background-position: right;
+    background-size: cover;
+
+    .slick-slide {
+        padding: 15px 15px;
+    }
+
+    &__box {
+        border-radius: 25px 0px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        overflow: hidden;
+        display: inline-flex !important;
+        background-color: $white;
+
+        h5 {
+            font-family: "Barkentina Test";
+            font-size: 27px;
+            text-align: left;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        ul {
+            list-style: none;
+            font-size: 15px;
+
+            a {
+                color: $black;
+            }
+        }
+    }
+
+    .btn {
+        background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
+        border: olive;
+    }
+}
+
+footer {
+    background-image: url(../i/footer.png);
+    background-position: right;
+    background-size: cover;
+    color: $white;
+
+    p {
+        margin: 0;
+        padding: 0;
+        font-family: "Barkentina Test";
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    ul {
+        list-style: none;
+        color: $white;
+
+        a {
+            text-transform: uppercase;
+            color: $white;
+
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
+
+.main_say {
+    background-image: url(../i/say.png);
+    background-position: right;
+    background-size: cover;
+    color: $white;
+
+
+    &__box {
+        display: flex !important;
+
+        img {
+            border-radius: 25px 0px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        }
+    }
+
+    h5 {
+        font-family: "Barkentina Test";
+        font-size: 27px;
+        line-height: 1.2;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 14px;
+        color: $green;
+        text-decoration: underline;
+    }
+
+    .slick-dots {
+        bottom: -30px;
+        padding-left: 0;
+    }
+
+    .btn {
+        background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
+        border: olive;
+        color: $black;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+}
+
+.rating {
+
+    .checked {
+        color: orange;
+    }
+}
+.brad_top{
+    padding-top: 100px;
+}

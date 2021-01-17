@@ -1,0 +1,67 @@
+@media(min-width:992px)and(max-width:1199px) {
+    .menu {
+        a {
+            font-size: 14px !important;
+        }
+    }
+}
+
+// -------------------------------------------992
+@media(min-width:992px)and(max-width:1199px) {
+    .main_why {
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../i/beack-02.jpg)!important;
+    }
+    footer{
+        a{
+            font-size: 14px;
+        }
+    }
+}
+
+// -------------------------------------------768
+@media(min-width:768px)and(max-width:991px) {
+    h2 {
+        font-size: 45px !important;
+    }
+    .main_why {
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../i/beack-02.jpg)!important;
+    }
+}
+
+// --------------------------------------------576
+@media(min-width:576px)and(max-width:767px) {
+    .slider__box {
+        img {
+            height: 450px !important;
+        }
+    }
+
+    h2 {
+        font-size: 35px !important;
+    }
+    .main_why {
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../i/beack-02.jpg)!important;
+    }
+}
+
+// ----------------------------------------mobile
+@media(max-width:576px) {
+    .slider {
+        p {
+            font-size: 92% !important;
+        }
+    }
+
+    .slider__box {
+        img {
+            height: 450px !important;
+        }
+    }
+
+    h2 {
+        font-size: 35px !important;
+    }
+    .main_why {
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../i/beack-02.jpg)!important;
+    }
+}
