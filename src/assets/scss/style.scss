@@ -4,7 +4,7 @@
 @import '../../../node_modules/bootstrap/scss/_grid';
 @import '../../../node_modules/bootstrap/scss/_variables';
 
-@import '../../../node_modules/bootstrap/scss/_navbar';
+@import '../../../node_modules/bootstrap/scss/_navbar'; 
 @import '../../../node_modules/bootstrap/scss/_dropdown';
 @import '../../../node_modules/bootstrap/scss/_transitions';
 @import '../../../node_modules/bootstrap/scss/_buttons';
@@ -12,6 +12,8 @@
 @import '../../../node_modules/bootstrap/scss/_card';
 @import '../../../node_modules/bootstrap/scss/_breadcrumb';
 @import '../../../node_modules/bootstrap/scss/_pagination';
+@import '../../../node_modules/bootstrap/scss/_forms';
+@import '../../../node_modules/bootstrap/scss/_custom-forms';
 
 @import '../../../bower_components/slick-carousel/slick/slick.scss';
 @import '../../../bower_components/slick-carousel/slick/slick-theme.scss';

@@ -436,6 +436,10 @@ footer {
         color: #54b036;
         text-decoration: underline;
     }
+    .btn{
+        color: $black;
+        text-decoration: none;
+    }
 }
 .item{
     .text{
@@ -450,4 +454,7 @@ footer {
     ul{
         margin-top: 15px;
     }
+}
+.form-control{
+    border-color: $green;
 }
