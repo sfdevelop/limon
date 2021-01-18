@@ -8586,6 +8586,10 @@ mark,
         font-size: 45px !important;
     }
 
+    h1 {
+        font-size: 48px !important;
+    }
+
     .main_why {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../i/beack-02.jpg) !important;
         background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../i/beack-02.jpg) !important;
@@ -8602,10 +8606,20 @@ mark,
         font-size: 35px !important;
     }
 
+    h1 {
+        font-size: 38px !important;
+    }
+
     .main_why {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../i/beack-02.jpg) !important;
         background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../i/beack-02.jpg) !important;
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../i/beack-02.jpg) !important;
+    }
+
+    .item .text img {
+        float: auto !important;
+        width: 100% !important;
+        margin-bottom: 20px;
     }
 }
 
@@ -8626,6 +8640,16 @@ mark,
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../i/beack-02.jpg) !important;
         background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../i/beack-02.jpg) !important;
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../i/beack-02.jpg) !important;
+    }
+
+    .item .text img {
+        float: auto !important;
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 38px !important;
     }
 }
 
@@ -8651,6 +8675,18 @@ h2 {
     font-size: calc(2vw + 0.7rem);
 }
 
+h1 {
+    font-family: "Barkentina Test";
+    font-weight: normal;
+    font-size: calc(2vw + 0.9rem);
+    text-align: center;
+    color: #000;
+}
+
+h3 {
+    font-family: "Barkentina Test";
+}
+
 .red {
     background: red;
 }
@@ -8659,7 +8695,8 @@ h2 {
     background: url(../i/bg-left.png) no-repeat left top, url(../i/bg-right.png) no-repeat right top, url(../i/bg-down.png) no-repeat right bottom;
 }
 
-.fixedsf, .black {
+.fixedsf,
+.black {
     background-color: #1d2228;
 }
 
@@ -9055,4 +9092,40 @@ footer ul a:hover {
 
 .brad_top {
     padding-top: 100px;
+}
+
+.price__box {
+    border-radius: 22px;
+    background: #fff;
+    border: 1px solid #54b036;
+}
+
+.comments h5 {
+    font-family: Barkentina Test;
+    font-size: 27px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+.comments p {
+    font-size: 14px;
+}
+
+.comments a {
+    color: #54b036;
+    text-decoration: underline;
+}
+
+.item .text img {
+    float: left;
+    width: 25vw;
+}
+
+.item h2 {
+    font-size: 250%;
+}
+
+.item ul {
+    margin-top: 15px;
 }

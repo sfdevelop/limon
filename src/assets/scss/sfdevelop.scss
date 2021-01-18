@@ -1,15 +1,17 @@
 .red {
     background: red;
 }
-.bg-left{
-    background: 
-    url(../i/bg-left.png) no-repeat left top,
-    url(../i/bg-right.png) no-repeat right top,
-    url(../i/bg-down.png) no-repeat right bottom;
+
+.bg-left {
+    background:
+        url(../i/bg-left.png) no-repeat left top,
+        url(../i/bg-right.png) no-repeat right top,
+        url(../i/bg-down.png) no-repeat right bottom;
 
 }
 
-.fixedsf, .black {
+.fixedsf,
+.black {
     background-color: #1d2228;
 }
 
@@ -204,10 +206,11 @@ a {
         position: absolute;
     }
 }
-.card{
+
+.card {
     .order {
         background: #effb00;
-        border-radius: 0px 10px;  
+        border-radius: 0px 10px;
         margin-top: 50%;
         font-size: 14px;
     }
@@ -403,6 +406,48 @@ footer {
         color: orange;
     }
 }
-.brad_top{
+
+.brad_top {
     padding-top: 100px;
+}
+
+.price {
+    &__box {
+        border-radius: 22px;
+        background: #fff;
+        border: 1px solid #54b036;
+    }
+}
+
+.comments {
+    h5 {
+        font-family: Barkentina Test;
+        font-size: 27px;
+        line-height: 1.2;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    a {
+        color: #54b036;
+        text-decoration: underline;
+    }
+}
+.item{
+    .text{
+        img{
+            float: left;
+            width: 25vw;
+        }
+    }
+    h2{
+        font-size: 250%;
+    }
+    ul{
+        margin-top: 15px;
+    }
 }
