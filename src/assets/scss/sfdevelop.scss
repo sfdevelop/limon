@@ -145,7 +145,7 @@ a {
 
 .stikly {
     position: sticky;
-    top: 0;
+    top: 100px;
 }
 
 .slider {
@@ -436,25 +436,355 @@ footer {
         color: #54b036;
         text-decoration: underline;
     }
-    .btn{
+
+    .btn {
         color: $black;
         text-decoration: none;
     }
 }
-.item{
-    .text{
-        img{
-            float: left;
-            width: 25vw;
-        }
+
+.text {
+    img {
+        float: left;
+        width: 25vw;
     }
-    h2{
+
+    h2 {
         font-size: 250%;
     }
-    ul{
+
+    ul {
         margin-top: 15px;
     }
+
+    p {
+        font-weight: normal;
+    }
 }
-.form-control{
+
+
+.form-control {
     border-color: $green;
+}
+
+.product_item {
+
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+
+    .btn {
+        background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
+        border: olive;
+    }
+
+    .img_absolute {
+        position: absolute;
+        z-index: 8;
+        bottom: 130px;
+        left: 10px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .product_slider {
+        img {
+            border-radius: 25px 0px 0px 0px;
+            /* background: url(...); */
+
+        }
+
+        &_vacansie__box {
+            img {
+                border-radius: 0px 25px;
+
+            }
+        }
+
+        .slider_vacansie__nav {
+            img {
+                // border-radius: 0px 10px;
+                border-left: 3px solid #fff;
+                border-right: 3px solid #fff;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    small {
+        color: #333;
+        font-size: 16px;
+    }
+
+    .Availability {
+        color: #01b307;
+        font-family: Roboto;
+
+    }
+
+    .specifications {
+        h6 {
+            font-family: Roboto;
+            font-weight: normal;
+            font-size: 20px;
+            color: #014b85;
+            border-bottom: 1px solid #014b85;
+            display: block;
+            padding-bottom: 10px;
+        }
+    }
+
+    .price {
+        font-family: Roboto;
+        font-weight: normal;
+        font-size: 40px;
+        color: #014b85;
+        line-height: 1.1;
+
+
+
+
+        .old {
+            font-family: Roboto;
+            font-weight: 300;
+            font-size: 25px;
+            color: #777;
+            text-decoration: line-through;
+            line-height: 1.1;
+
+        }
+
+    }
+
+    .size {
+        .size_pr {
+            span {
+                border-radius: 5px;
+                background: #fff;
+                border: 1px solid #ffeee6;
+                padding: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                &.active {
+                    border: 1px solid red;
+                    background: #FFEEE6;
+                }
+
+                &:hover {
+                    border: 1px solid red;
+                }
+            }
+        }
+    }
+
+    .table {
+        color: #333;
+        border-radius: 5px;
+        background: #fff;
+        border: 1px solid #c5c5c5;
+        padding-right: 10px;
+
+        &:hover {
+            cursor: pointer;
+            border: 1px solid red;
+            color: red;
+        }
+    }
+
+    .color {
+
+        position: relative;
+        z-index: 55;
+
+        img {
+            border-radius: 50%;
+            z-index: 55;
+            width: 40px;
+            height: 40px;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+
+
+        .active {
+            // position: absolute;
+            width: 40px;
+            height: 40px;
+            z-index: 777;
+
+
+            .img {
+                position: relative;
+                z-index: 55;
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                &:before {
+                    content: "";
+                    font-family: "FontAwesome";
+                    width: 40px;
+                    height: 40px;
+                    background-color: #000;
+                    position: absolute;
+                    left: 0;
+                    border-radius: 50%;
+                    opacity: 0.4;
+                    display: flex;
+                    color: #fff;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                &::after {
+                    content: "\f107";
+                    font-family: "FontAwesome";
+                    width: 40px;
+                    height: 40px;
+                    color: #fff;
+                    left: 50%;
+                    margin-left: -4px;
+                    top: 50%;
+                    margin-top: -11px;
+                    position: absolute;
+                    z-index: 888;
+                    color: #fff;
+                    // display: flex;
+                    // justify-content:center ;
+                    // align-items: center;
+                }
+            }
+        }
+    }
+
+    .radius {
+        background: #fff;
+        border-radius: 50%;
+        background: #fff;
+        align-self: center;
+
+        svg {
+            font-weight: 300;
+            stroke-width: 0.3;
+            width: 20px;
+        }
+
+        &:hover {
+            background: #C5C5C5;
+            cursor: pointer;
+
+            svg {
+                stroke: #fff !important;
+                fill: #fff !important;
+            }
+        }
+    }
+
+    .buy {
+        a {
+            color: #fff;
+        }
+
+        .btn-certificate {
+            color: #000;
+        }
+
+        .btn-buy {
+            color: #014B85;
+            text-decoration: underline;
+        }
+
+        .btn {
+            font-size: 18px;
+        }
+
+    }
+
+    .nav-pills {
+        border-bottom: 1px solid $green;
+    }
+
+    .comments_product {
+        h5 {
+            font-family: "Barkentina Test";
+            font-weight: normal;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.4;
+            font-weight: normal;
+        }
+
+        img {
+            border-radius: 25px 0px;
+            /* background: url(...); */
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        }
+    }
+
+    .rating_comments {
+        .rating {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: start;
+            position: relative;
+        }
+
+        .rating>input {
+            display: none
+        }
+
+        .rating>label {
+            position: relative;
+            width: 1em;
+            font-size: 35px;
+            color: #00BFF6;
+            cursor: pointer
+        }
+
+        .rating>label::before {
+            content: "\2605";
+            position: absolute;
+            opacity: 0
+        }
+
+        .rating>label:hover:before,
+        .rating>label:hover~label:before {
+            opacity: 1 !important
+        }
+
+        .rating>input:checked~label:before {
+            opacity: 1
+        }
+
+        .rating:hover>input:checked~label:before {
+            opacity: 0.4
+        }
+    }
+
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        background-color: $white;
+        color: $white;
+
+        border-radius: 5px 0px;
+        background: linear-gradient(#d0d832 0%, #54b036 100%);
+
+
+    }
 }

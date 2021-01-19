@@ -14,11 +14,15 @@
 @import '../../../node_modules/bootstrap/scss/_pagination';
 @import '../../../node_modules/bootstrap/scss/_forms';
 @import '../../../node_modules/bootstrap/scss/_custom-forms';
+@import '../../../node_modules/bootstrap/scss/_images';
+@import '../../../node_modules/bootstrap/scss/_navbar';
+@import '../../../node_modules/bootstrap/scss/_nav';
 
 @import '../../../bower_components/slick-carousel/slick/slick.scss';
 @import '../../../bower_components/slick-carousel/slick/slick-theme.scss';
 
-@import 'iconmoon';   
+@import 'iconmoon';  
+@import 'fancybox';  
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';      
 @import 'menu-mobile';   
 @import 'responsive';  

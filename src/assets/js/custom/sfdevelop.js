@@ -66,4 +66,28 @@ $(document).ready(function () {
 	});
 });
 
+//слайдшоу в карточке
+$(document).ready(function () {
+	$('.slider_vacansie__box').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: true,
+		asNavFor: '.slider_vacansie__nav'
+	});
+	$('.slider_vacansie__nav').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		asNavFor: '.slider_vacansie__box',
+		dots: false,
+		centerMode: false,
+		focusOnSelect: true,
+		responsive: [{
+			breakpoint: 992,
+			settings: {
+				arrows: false
+			}
+		}]
+	});
+});
 
