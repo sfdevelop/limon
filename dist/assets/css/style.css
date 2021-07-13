@@ -11099,6 +11099,12 @@ textarea.form-control {
     border-bottom: none;
 }
 
+@media (min-width: 1200px) {
+    .h-120 {
+        min-height: 700px;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .menu a {
         font-size: 14px !important;
@@ -11978,4 +11984,65 @@ footer ul a:hover {
     background: -webkit-gradient(linear, left top, left bottom, from(#d0d832), to(#54b036));
     background: -o-linear-gradient(#d0d832 0%, #54b036 100%);
     background: linear-gradient(#d0d832 0%, #54b036 100%);
+}
+
+.auth .hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: 1;
+}
+
+.auth .hr-text:before {
+    content: '';
+    background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#ebef03), to(transparent));
+    background: -o-linear-gradient(left, transparent, #ebef03, transparent);
+    background: linear-gradient(to right, transparent, #ebef03, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+}
+
+.auth .hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: #495057;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    color: #495057;
+    background-color: #fcfcfa;
+}
+
+.auth .btn {
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #d0d832), to(#54b036));
+    background: -o-linear-gradient(left top, #d0d832 0, #54b036);
+    background: linear-gradient(to right bottom, #d0d832 0, #54b036);
+    border: olive;
+}
+
+.auth .btn-gray {
+    border-radius: 25px;
+    background: #fff;
+    border: 1px solid #c5c5c5;
+    height: 50px;
+    color: #495057;
+}
+
+.bg-blue {
+    background: #4267B2 !important;
+    color: #fff !important;
+}
+
+.registration .btn {
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #d0d832), to(#54b036));
+    background: -o-linear-gradient(left top, #d0d832 0, #54b036);
+    background: linear-gradient(to right bottom, #d0d832 0, #54b036);
+    border: olive;
 }
