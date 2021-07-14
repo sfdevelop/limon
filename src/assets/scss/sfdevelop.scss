@@ -1,845 +1,889 @@
 .red {
-    background: red;
+  background: red;
+}
+
+.gray {
+  color: #707070;
 }
 
 .bg-left {
-    background:
-        url(../i/bg-left.png) no-repeat left top,
-        url(../i/bg-right.png) no-repeat right top,
-        url(../i/bg-down.png) no-repeat right bottom;
+  background: url(../i/bg-left.png) no-repeat left top,
+  url(../i/bg-right.png) no-repeat right top,
+  url(../i/bg-down.png) no-repeat right bottom;
 
 }
 
 .fixedsf,
 .black {
-    background-color: #1d2228;
+  background-color: #1d2228;
 }
 
 * {
-    outline: none !important;
+  outline: none !important;
 }
 
 .slick-dots {
-    text-align: left;
-    padding-left: 15px;
-    bottom: -10px;
+  text-align: left;
+  padding-left: 15px;
+  bottom: -10px;
 
-    li {
-        margin-left: 3px;
-        margin-right: 3px;
+  li {
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 10px;
+    height: 10px;
+
+    button {
+      // background-color: red;
+      border-radius: 50%;
+      border: 1px solid $green;
+      height: 10px;
+      width: 10px;
+
+      &:before {
         width: 10px;
         height: 10px;
-
-        button {
-            // background-color: red;
-            border-radius: 50%;
-            border: 1px solid $green;
-            height: 10px;
-            width: 10px;
-
-            &:before {
-                width: 10px;
-                height: 10px;
-                content: "";
-            }
-        }
+        content: "";
+      }
     }
+  }
 
-    .slick-active {
-        background-color: $green;
-        width: 13px;
-        height: 13px;
-        border-radius: 50%;
-        // border:  1px solid $green;
+  .slick-active {
+    background-color: $green;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    // border:  1px solid $green;
 
-    }
+  }
 }
 
 .btn {
 
-    background: #d0d832;
-    filter: drop-shadow(0px 0px 15px rgba(84, 176, 54, 0.4));
-    border-radius: 30px;
+  background: #d0d832;
+  filter: drop-shadow(0px 0px 15px rgba(84, 176, 54, 0.4));
+  border-radius: 30px;
 
-    // &:hover {
-    //     // background: linear-gradient(to left, #d0d832 0%, #54b036 100%);
-    // }
+  // &:hover {
+  //     // background: linear-gradient(to left, #d0d832 0%, #54b036 100%);
+  // }
 }
 
 .logo-menu {
-    position: absolute;
-    left: 15px;
-    top: 15px;
-    z-index: 9;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  z-index: 9;
 
-    img {
-        width: 35px;
-    }
+  img {
+    width: 35px;
+  }
 }
 
 .dropdown__menu {
-    position: absolute;
-    right: 80px;
-    top: 20px;
-    z-index: 9;
+  position: absolute;
+  right: 80px;
+  top: 20px;
+  z-index: 9;
 }
 
 .user_mobile {
-    position: absolute;
-    right: 120px;
-    top: 20px;
-    z-index: 9;
+  position: absolute;
+  right: 120px;
+  top: 20px;
+  z-index: 9;
 }
 
 .absolute {
-    position: absolute;
-    margin: 0 auto;
+  position: absolute;
+  margin: 0 auto;
 }
 
 .relative {
-    position: relative;
+  position: relative;
 }
 
 a {
-    &:hover {
-        text-decoration: none;
-    }
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .line {
-    width: 166px;
-    background: transparent;
-    border: 1px solid $green;
+  width: 166px;
+  background: transparent;
+  border: 1px solid $green;
 
 }
 
 .menu {
-    ul {
-        list-style: none;
-
-        a {
-            text-transform: uppercase;
-            color: $white;
-        }
-    }
+  ul {
+    list-style: none;
 
     a {
-        color: $white;
+      text-transform: uppercase;
+      color: $white;
     }
+  }
 
-    .user {
-        width: 30px;
-    }
+  a {
+    color: $white;
+  }
 
-    .small {
-        color: $yellow;
-    }
+  .user {
+    width: 30px;
+  }
+
+  .small {
+    color: $yellow;
+  }
 
 }
 
 .btn-drpdown {
-    background: none;
-    border: none;
-    color: $white;
+  background: none;
+  border: none;
+  color: $white;
 }
 
 .stikly {
-    position: sticky;
-    top: 100px;
+  position: sticky;
+  top: 100px;
 }
 
 .slider {
-    .absolute {
-        height: 100%;
-    }
+  .absolute {
+    height: 100%;
+  }
 
-    p {
-        font-family: 'Montserrat', sans-serif;
+  p {
+    font-family: 'Montserrat', sans-serif;
 
-        font-weight: normal;
-        font-size: 20px;
-        color: $white;
-        text-transform: uppercase;
-    }
+    font-weight: normal;
+    font-size: 20px;
+    color: $white;
+    text-transform: uppercase;
+  }
 }
 
 .card {
-    display: flex;
+  display: flex;
 
-    h5 {
-        font-family: "Barkentina Test";
-        font-weight: normal;
-        font-size: 27px;
-        line-height: 1;
-    }
+  h5 {
+    font-family: "Barkentina Test";
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 1;
+  }
 
-    h6 {
-        font-size: 18px;
-        // margin: auto 0 0;
-    }
+  h6 {
+    font-size: 18px;
+    // margin: auto 0 0;
+  }
 
-    p {
-        font-size: 14px;
-        // margin: auto 0 0;
-    }
+  p {
+    font-size: 14px;
+    // margin: auto 0 0;
+  }
 
-    a {
-        color: $black;
-    }
+  a {
+    color: $black;
+  }
 
-    .card-down {
-        margin: auto 0 0;
-    }
+  .card-down {
+    margin: auto 0 0;
+  }
 
-    .btn {
-        background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
-        border: olive;
-    }
+  .btn {
+    background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
+    border: olive;
+  }
 }
 
 .offers {
-    background-image: url(../i/beack-01.jpg);
-    background-position: right;
-    background-size: cover;
+  background-image: url(../i/beack-01.jpg);
+  background-position: right;
+  background-size: cover;
 
-    .absolute {
-        position: absolute;
-    }
+  .absolute {
+    position: absolute;
+  }
 }
 
 .card {
-    .order {
-        background: #effb00;
-        border-radius: 0px 10px;
-        margin-top: 50%;
-        font-size: 14px;
-    }
+  .order {
+    background: #effb00;
+    border-radius: 0px 10px;
+    margin-top: 50%;
+    font-size: 14px;
+  }
 }
 
 .main_why {
-    background: url(../i/beack-02.jpg);
-    // background-position: right;
-    background-size: cover;
+  background: url(../i/beack-02.jpg);
+  // background-position: right;
+  background-size: cover;
 
-    h2 {
-        color: $white;
-    }
+  h2 {
+    color: $white;
+  }
 
-    h5 {
-        font-family: "Barkentina Test";
-        font-size: 27px;
-        line-height: 1.1;
-        color: $white;
-    }
+  h5 {
+    font-family: "Barkentina Test";
+    font-size: 27px;
+    line-height: 1.1;
+    color: $white;
+  }
 
-    p {
-        color: $white;
-        // line-height: 1.1;
-        font-size: 14px;
-        text-align: center;
-    }
+  p {
+    color: $white;
+    // line-height: 1.1;
+    font-size: 14px;
+    text-align: center;
+  }
 
-    .btn {
-        background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
-        border: olive;
-    }
+  .btn {
+    background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
+    border: olive;
+  }
 }
 
 .main_offer {
-    background-image: url(../i/beack-03.jpg);
-    background-position: left;
-    background-size: cover;
+  background-image: url(../i/beack-03.jpg);
+  background-position: left;
+  background-size: cover;
 
-    &__box {
-        border-radius: 25px 0px;
-        background: $white;
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-        display: flex;
-        flex-direction: column;
+  &__box {
+    border-radius: 25px 0px;
+    background: $white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
 
-        a {
-            color: $green;
-            margin: auto 0 0;
-        }
+    a {
+      color: $green;
+      margin: auto 0 0;
     }
+  }
 
-    h5 {
-        font-family: "Barkentina Test";
-        font-size: 27px;
-        line-height: 1.1;
-    }
+  h5 {
+    font-family: "Barkentina Test";
+    font-size: 27px;
+    line-height: 1.1;
+  }
 
-    p {
-        font-size: 14px;
-        margin: auto 0 0;
-    }
+  p {
+    font-size: 14px;
+    margin: auto 0 0;
+  }
 
-    .btn {
-        background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
-        border: olive;
-    }
+  .btn {
+    background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
+    border: olive;
+  }
 }
 
 .main_send {
-    background-image: url(../i/beack-04.jpg);
-    background-position: right;
-    background-size: cover;
+  background-image: url(../i/beack-04.jpg);
+  background-position: right;
+  background-size: cover;
 
-    .slick-slide {
-        padding: 15px 15px;
+  .slick-slide {
+    padding: 15px 15px;
+  }
+
+  &__box {
+    border-radius: 25px 0px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    display: inline-flex !important;
+    background-color: $white;
+
+    h5 {
+      font-family: "Barkentina Test";
+      font-size: 27px;
+      text-align: left;
     }
-
-    &__box {
-        border-radius: 25px 0px;
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-        overflow: hidden;
-        display: inline-flex !important;
-        background-color: $white;
-
-        h5 {
-            font-family: "Barkentina Test";
-            font-size: 27px;
-            text-align: left;
-        }
-
-        p {
-            font-size: 15px;
-        }
-
-        ul {
-            list-style: none;
-            font-size: 15px;
-
-            a {
-                color: $black;
-            }
-        }
-    }
-
-    .btn {
-        background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
-        border: olive;
-    }
-}
-
-footer {
-    background-image: url(../i/footer.png);
-    background-position: right;
-    background-size: cover;
-    color: $white;
 
     p {
-        margin: 0;
-        padding: 0;
-        font-family: "Barkentina Test";
-        font-size: 18px;
-        line-height: 1.2;
+      font-size: 15px;
     }
 
     ul {
-        list-style: none;
-        color: $white;
+      list-style: none;
+      font-size: 15px;
 
-        a {
-            text-transform: uppercase;
-            color: $white;
-
-            &:hover {
-                color: $white;
-            }
-        }
+      a {
+        color: $black;
+      }
     }
+  }
+
+  .btn {
+    background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
+    border: olive;
+  }
+}
+
+footer {
+  background-image: url(../i/footer.png);
+  background-position: right;
+  background-size: cover;
+  color: $white;
+
+  p {
+    margin: 0;
+    padding: 0;
+    font-family: "Barkentina Test";
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  ul {
+    list-style: none;
+    color: $white;
+
+    a {
+      text-transform: uppercase;
+      color: $white;
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
 }
 
 .main_say {
-    background-image: url(../i/say.png);
-    background-position: right;
-    background-size: cover;
-    color: $white;
+  background-image: url(../i/say.png);
+  background-position: right;
+  background-size: cover;
+  color: $white;
 
 
-    &__box {
-        display: flex !important;
+  &__box {
+    display: flex !important;
 
-        img {
-            border-radius: 25px 0px;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-        }
+    img {
+      border-radius: 25px 0px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     }
+  }
 
-    h5 {
-        font-family: "Barkentina Test";
-        font-size: 27px;
-        line-height: 1.2;
-        margin: 0;
-        padding: 0;
-    }
+  h5 {
+    font-family: "Barkentina Test";
+    font-size: 27px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+  }
 
-    p {
-        font-size: 14px;
-    }
+  p {
+    font-size: 14px;
+  }
 
-    a {
-        font-size: 14px;
-        color: $green;
-        text-decoration: underline;
-    }
+  a {
+    font-size: 14px;
+    color: $green;
+    text-decoration: underline;
+  }
 
-    .slick-dots {
-        bottom: -30px;
-        padding-left: 0;
-    }
+  .slick-dots {
+    bottom: -30px;
+    padding-left: 0;
+  }
 
-    .btn {
-        background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
-        border: olive;
-        color: $black;
-        text-decoration: none;
-        font-size: 18px;
-    }
+  .btn {
+    background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
+    border: olive;
+    color: $black;
+    text-decoration: none;
+    font-size: 18px;
+  }
 
 }
 
 .rating {
 
-    .checked {
-        color: orange;
-    }
+  .checked {
+    color: orange;
+  }
 }
 
 .brad_top {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .price {
-    &__box {
-        border-radius: 22px;
-        background: #fff;
-        border: 1px solid #54b036;
-    }
+  &__box {
+    border-radius: 22px;
+    background: #fff;
+    border: 1px solid #54b036;
+  }
 }
 
 .comments {
-    h5 {
-        font-family: Barkentina Test;
-        font-size: 27px;
-        line-height: 1.2;
-        margin: 0;
-        padding: 0;
-    }
+  h5 {
+    font-family: Barkentina Test;
+    font-size: 27px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+  }
 
-    p {
-        font-size: 14px;
-    }
+  p {
+    font-size: 14px;
+  }
 
-    a {
-        color: #54b036;
-        text-decoration: underline;
-    }
+  a {
+    color: #54b036;
+    text-decoration: underline;
+  }
 
-    .btn {
-        color: $black;
-        text-decoration: none;
-    }
+  .btn {
+    color: $black;
+    text-decoration: none;
+  }
 }
 
 .text {
-    img {
-        float: left;
-        width: 25vw;
-    }
+  img {
+    float: left;
+    width: 25vw;
+  }
 
-    h2 {
-        font-size: 250%;
-    }
+  h2 {
+    font-size: 250%;
+  }
 
-    ul {
-        margin-top: 15px;
-    }
+  ul {
+    margin-top: 15px;
+  }
 
-    p {
-        font-weight: normal;
-    }
+  p {
+    font-weight: normal;
+  }
 }
 
 
 .form-control {
-    border-color: $green;
+  border-color: $green;
 }
 
 .product_item {
 
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
 
-    .btn {
-        background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
-        border: olive;
+  .btn {
+    background: linear-gradient(to right bottom, #d0d832 0%, #54b036 100%);
+    border: olive;
+  }
+
+  .img_absolute {
+    position: absolute;
+    z-index: 8;
+    bottom: 130px;
+    left: 10px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .product_slider {
+    img {
+      border-radius: 25px 0px 0px 0px;
+      /* background: url(...); */
+
     }
 
-    .img_absolute {
-        position: absolute;
-        z-index: 8;
-        bottom: 130px;
-        left: 10px;
+    &_vacansie__box {
+      img {
+        border-radius: 0px 25px;
+
+      }
+    }
+
+    .slider_vacansie__nav {
+      img {
+        // border-radius: 0px 10px;
+        border-left: 3px solid #fff;
+        border-right: 3px solid #fff;
 
         &:hover {
-            cursor: pointer;
+          cursor: pointer;
         }
+      }
     }
+  }
 
-    .product_slider {
-        img {
-            border-radius: 25px 0px 0px 0px;
-            /* background: url(...); */
+  small {
+    color: #333;
+    font-size: 16px;
+  }
 
-        }
+  .Availability {
+    color: #01b307;
+    font-family: Roboto;
 
-        &_vacansie__box {
-            img {
-                border-radius: 0px 25px;
+  }
 
-            }
-        }
-
-        .slider_vacansie__nav {
-            img {
-                // border-radius: 0px 10px;
-                border-left: 3px solid #fff;
-                border-right: 3px solid #fff;
-
-                &:hover {
-                    cursor: pointer;
-                }
-            }
-        }
+  .specifications {
+    h6 {
+      font-family: Roboto;
+      font-weight: normal;
+      font-size: 20px;
+      color: #014b85;
+      border-bottom: 1px solid #014b85;
+      display: block;
+      padding-bottom: 10px;
     }
+  }
 
-    small {
-        color: #333;
-        font-size: 16px;
-    }
-
-    .Availability {
-        color: #01b307;
-        font-family: Roboto;
-
-    }
-
-    .specifications {
-        h6 {
-            font-family: Roboto;
-            font-weight: normal;
-            font-size: 20px;
-            color: #014b85;
-            border-bottom: 1px solid #014b85;
-            display: block;
-            padding-bottom: 10px;
-        }
-    }
-
-    .price {
-        font-family: Roboto;
-        font-weight: normal;
-        font-size: 40px;
-        color: #014b85;
-        line-height: 1.1;
+  .price {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 40px;
+    color: #014b85;
+    line-height: 1.1;
 
 
-
-
-        .old {
-            font-family: Roboto;
-            font-weight: 300;
-            font-size: 25px;
-            color: #777;
-            text-decoration: line-through;
-            line-height: 1.1;
-
-        }
+    .old {
+      font-family: Roboto;
+      font-weight: 300;
+      font-size: 25px;
+      color: #777;
+      text-decoration: line-through;
+      line-height: 1.1;
 
     }
 
-    .size {
-        .size_pr {
-            span {
-                border-radius: 5px;
-                background: #fff;
-                border: 1px solid #ffeee6;
-                padding: 5px;
-                font-family: Arial, Helvetica, sans-serif;
+  }
 
-                &:hover {
-                    cursor: pointer;
-                }
-
-                &.active {
-                    border: 1px solid red;
-                    background: #FFEEE6;
-                }
-
-                &:hover {
-                    border: 1px solid red;
-                }
-            }
-        }
-    }
-
-    .table {
-        color: #333;
+  .size {
+    .size_pr {
+      span {
         border-radius: 5px;
         background: #fff;
-        border: 1px solid #c5c5c5;
-        padding-right: 10px;
+        border: 1px solid #ffeee6;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
 
         &:hover {
-            cursor: pointer;
-            border: 1px solid red;
-            color: red;
+          cursor: pointer;
         }
+
+        &.active {
+          border: 1px solid red;
+          background: #FFEEE6;
+        }
+
+        &:hover {
+          border: 1px solid red;
+        }
+      }
+    }
+  }
+
+  .table {
+    color: #333;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #c5c5c5;
+    padding-right: 10px;
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid red;
+      color: red;
+    }
+  }
+
+  .color {
+
+    position: relative;
+    z-index: 55;
+
+    img {
+      border-radius: 50%;
+      z-index: 55;
+      width: 40px;
+      height: 40px;
     }
 
-    .color {
+    &:hover {
+      cursor: pointer;
+    }
 
+
+    .active {
+      // position: absolute;
+      width: 40px;
+      height: 40px;
+      z-index: 777;
+
+
+      .img {
         position: relative;
         z-index: 55;
 
-        img {
-            border-radius: 50%;
-            z-index: 55;
-            width: 40px;
-            height: 40px;
-        }
-
         &:hover {
-            cursor: pointer;
+          cursor: pointer;
         }
 
-
-        .active {
-            // position: absolute;
-            width: 40px;
-            height: 40px;
-            z-index: 777;
-
-
-            .img {
-                position: relative;
-                z-index: 55;
-
-                &:hover {
-                    cursor: pointer;
-                }
-
-                &:before {
-                    content: "";
-                    font-family: "FontAwesome";
-                    width: 40px;
-                    height: 40px;
-                    background-color: #000;
-                    position: absolute;
-                    left: 0;
-                    border-radius: 50%;
-                    opacity: 0.4;
-                    display: flex;
-                    color: #fff;
-                    justify-content: center;
-                    align-items: center;
-                }
-
-                &::after {
-                    content: "\f107";
-                    font-family: "FontAwesome";
-                    width: 40px;
-                    height: 40px;
-                    color: #fff;
-                    left: 50%;
-                    margin-left: -4px;
-                    top: 50%;
-                    margin-top: -11px;
-                    position: absolute;
-                    z-index: 888;
-                    color: #fff;
-                    // display: flex;
-                    // justify-content:center ;
-                    // align-items: center;
-                }
-            }
-        }
-    }
-
-    .radius {
-        background: #fff;
-        border-radius: 50%;
-        background: #fff;
-        align-self: center;
-
-        svg {
-            font-weight: 300;
-            stroke-width: 0.3;
-            width: 20px;
-        }
-
-        &:hover {
-            background: #C5C5C5;
-            cursor: pointer;
-
-            svg {
-                stroke: #fff !important;
-                fill: #fff !important;
-            }
-        }
-    }
-
-    .buy {
-        a {
-            color: #fff;
-        }
-
-        .btn-certificate {
-            color: #000;
-        }
-
-        .btn-buy {
-            color: #014B85;
-            text-decoration: underline;
-        }
-
-        .btn {
-            font-size: 18px;
-        }
-
-    }
-
-    .nav-pills {
-        border-bottom: 1px solid $green;
-    }
-
-    .comments_product {
-        h5 {
-            font-family: "Barkentina Test";
-            font-weight: normal;
-            font-size: 20px;
-        }
-
-        p {
-            font-size: 14px;
-            line-height: 1.4;
-            font-weight: normal;
-        }
-
-        img {
-            border-radius: 25px 0px;
-            /* background: url(...); */
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-        }
-    }
-
-    .rating_comments {
-        .rating {
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: start;
-            position: relative;
-        }
-
-        .rating>input {
-            display: none
-        }
-
-        .rating>label {
-            position: relative;
-            width: 1em;
-            font-size: 35px;
-            color: #00BFF6;
-            cursor: pointer
-        }
-
-        .rating>label::before {
-            content: "\2605";
-            position: absolute;
-            opacity: 0
-        }
-
-        .rating>label:hover:before,
-        .rating>label:hover~label:before {
-            opacity: 1 !important
-        }
-
-        .rating>input:checked~label:before {
-            opacity: 1
-        }
-
-        .rating:hover>input:checked~label:before {
-            opacity: 0.4
-        }
-    }
-
-
-    .nav-pills .nav-link.active,
-    .nav-pills .show>.nav-link {
-        background-color: $white;
-        color: $white;
-
-        border-radius: 5px 0px;
-        background: linear-gradient(#d0d832 0%, #54b036 100%);
-    }
-}
-.auth{
-    .hr-text {
-        line-height: 1em;
-        position: relative;
-        outline: 0;
-        border: 0;
-        color: black;
-        text-align: center;
-        height: 1.5em;
-        opacity: 1;
         &:before {
-            content: '';
-            // use the linear-gradient for the fading effect
-            // use a solid background color for a solid bar
-            background: linear-gradient(to right, transparent, #ebef03, transparent);
-            position: absolute;
-            left: 0;
-            top: 50%;
-            width: 100%;
-            height: 2px;
+          content: "";
+          font-family: "FontAwesome";
+          width: 40px;
+          height: 40px;
+          background-color: #000;
+          position: absolute;
+          left: 0;
+          border-radius: 50%;
+          opacity: 0.4;
+          display: flex;
+          color: #fff;
+          justify-content: center;
+          align-items: center;
         }
-        &:after {
-            content: attr(data-content);
-            position: relative;
-            display: inline-block;
-            color: $gray-700;
 
-            padding: 0 .5em;
-            line-height: 1.5em;
-            // this is really the only tricky part, you need to specify the background color of the container element...
-            color: $gray-700;
-            background-color: #fcfcfa;
+        &::after {
+          content: "\f107";
+          font-family: "FontAwesome";
+          width: 40px;
+          height: 40px;
+          color: #fff;
+          left: 50%;
+          margin-left: -4px;
+          top: 50%;
+          margin-top: -11px;
+          position: absolute;
+          z-index: 888;
+          color: #fff;
+          // display: flex;
+          // justify-content:center ;
+          // align-items: center;
         }
+      }
+    }
+  }
+
+  .radius {
+    background: #fff;
+    border-radius: 50%;
+    background: #fff;
+    align-self: center;
+
+    svg {
+      font-weight: 300;
+      stroke-width: 0.3;
+      width: 20px;
     }
 
-    .btn{
-        background: linear-gradient(to right bottom,#d0d832 0,#54b036);
-        border: olive;
+    &:hover {
+      background: #C5C5C5;
+      cursor: pointer;
+
+      svg {
+        stroke: #fff !important;
+        fill: #fff !important;
+      }
     }
-    .btn-gray{
-        border-radius: 25px;
-        background: #fff;
-        border: 1px solid #c5c5c5;
-        height: 50px;
-        color: $gray-700;
+  }
+
+  .buy {
+    a {
+      color: #fff;
     }
+
+    .btn-certificate {
+      color: #000;
+    }
+
+    .btn-buy {
+      color: #014B85;
+      text-decoration: underline;
+    }
+
+    .btn {
+      font-size: 18px;
+    }
+
+  }
+
+  .nav-pills {
+    border-bottom: 1px solid $green;
+  }
+
+  .comments_product {
+    h5 {
+      font-family: "Barkentina Test";
+      font-weight: normal;
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: normal;
+    }
+
+    img {
+      border-radius: 25px 0px;
+      /* background: url(...); */
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  .rating_comments {
+    .rating {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: start;
+      position: relative;
+    }
+
+    .rating > input {
+      display: none
+    }
+
+    .rating > label {
+      position: relative;
+      width: 1em;
+      font-size: 35px;
+      color: #00BFF6;
+      cursor: pointer
+    }
+
+    .rating > label::before {
+      content: "\2605";
+      position: absolute;
+      opacity: 0
+    }
+
+    .rating > label:hover:before,
+    .rating > label:hover ~ label:before {
+      opacity: 1 !important
+    }
+
+    .rating > input:checked ~ label:before {
+      opacity: 1
+    }
+
+    .rating:hover > input:checked ~ label:before {
+      opacity: 0.4
+    }
+  }
+
+
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    background-color: $white;
+    color: $white;
+
+    border-radius: 5px 0px;
+    background: linear-gradient(#d0d832 0%, #54b036 100%);
+  }
 }
-.bg-blue{
-    background: #4267B2!important;
-    color: $white!important;
-}
-.registration{
-    .btn{
-        background: linear-gradient(to right bottom,#d0d832 0,#54b036);
-        border: olive;
+
+.auth {
+  .hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: 1;
+
+    &:before {
+      content: '';
+      // use the linear-gradient for the fading effect
+      // use a solid background color for a solid bar
+      background: linear-gradient(to right, transparent, #ebef03, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 2px;
     }
+
+    &:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: $gray-700;
+
+      padding: 0 .5em;
+      line-height: 1.5em;
+      // this is really the only tricky part, you need to specify the background color of the container element...
+      color: $gray-700;
+      background-color: #fcfcfa;
+    }
+  }
+
+  .btn {
+    background: linear-gradient(to right bottom, #d0d832 0, #54b036);
+    border: olive;
+  }
+
+  .btn-gray {
+    border-radius: 25px;
+    background: #fff;
+    border: 1px solid #c5c5c5;
+    height: 50px;
+    color: $gray-700;
+  }
+}
+
+.bg-blue {
+  background: #4267B2 !important;
+  color: $white !important;
+}
+
+.registration {
+  .btn {
+    background: linear-gradient(to right bottom, #d0d832 0, #54b036);
+    border: olive;
+  }
+}
+
+.cabinet {
+  &_info {
+    img {
+      border-radius: 25px 0px 0px 0px;
+    }
+
+    &__box {
+      border-radius: 25px 0px;
+      background: #fff;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+
+      .btn {
+        background: linear-gradient(to right bottom, #d0d832 0, #54b036);
+        border: olive;
+      }
+    }
+  }
+
+  &_more{
+    .img-radius {
+      border-radius: 25px 0px 0px 0px;
+    }
+    &__box{
+      border-radius: 25px 0px 0px 0px;
+      background: #fff;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    }
+    p{    font-family: Montserrat;
+      font-weight: normal;
+      font-size: 14px;
+      text-align: left;
+      color: #000;
+      padding-right: 15px;
+    }
+  }
 }

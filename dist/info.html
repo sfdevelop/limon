@@ -129,7 +129,7 @@
 	</a>
 	<div class="navBurger d-lg-none" role="navigation" id="navToggle"></div>
 </div>
-<div class="auth">
+<div class="cabinet_info pb-5 bg-left">
     <div class="container brad_top d-block">
         <nav class="pt-3" aria-label="breadcrumb ">
             <ol class="breadcrumb px-0 mx-0 pl-0">
@@ -139,77 +139,117 @@
             </ol>
           </nav>
     </div>
-    <div class="container">
-        <div class="d-flex justify-content-center h-120">
-            <div class="col-md-7">
-                <h2 class="text-center">Вход</h2>
-                <form action="">
-                    <div class="row">
-                        <div class="col-12">
-                            <input type="text" class="form-control my-2" id="usr" placeholder="Логин или Email">
-                            <div class="invalid-feedback">
-                                Please select a valid state.
-                            </div>
+    <div class="container pb-lg-5">
+        <h2 class="text-center w-100">Личные данные</h2>
+        <div class="text-center d-flex justify-content-center mt-3">
+            <div class="line"></div>
+        </div>
+        <div class="row mt-5 mb-lg-5 cabinet_info__box">
+            <div class="col-lg-4 px-lg-0 ">
+                <img src="assets/i/info.png" class="img-fluid" alt="info">
+            </div>
+            <div class="col-lg-8 py-3">
+                <h4>Личные данные</h4>
+                <div class="row my-4">
+                    <div class="col-lg-3">
+                        <div class="small gray">
+                            Фамилия
                         </div>
-                        <div class="col-12">
-                            <input type="password" class="form-control my-2" id="pass" placeholder="Пароль">
-                            <div class="invalid-feedback">
-                                Please select a valid state.
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="remember"
-                                               name="example1">
-                                        <label class="custom-control-label text-black-50" for="remember">Запомнить
-                                            меня</label>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <a href="" class="text-black-50">Напомнить пароль </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 my-4">
-                            <div class="d-flex align-items-center">
-                                <a href="cabinet.html" class="btn mr-4">Войти</a>
-                                <a href="registration.html">Зарегистрироваться </a>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <hr class="hr-text" data-content="Или">
-                        </div>
-                        <div class="d-flex w-100">
-
-                            <a href=""
-                               class="btn-gray text-center w-100 d-flex align-items-center justify-content-center">
-                                <img class="mr-2" src="assets/i/google.svg" alt="google">
-                                Продолжить с Google
-                            </a>
-                        </div>
-                        <div class="d-flex w-100 mt-4">
-
-                            <a href=""
-                               class="btn-gray bg-blue text-center w-100 d-flex align-items-center justify-content-center">
-                                <img class="mr-2" src="assets/i/facebook_white.svg" alt="facebook_white">
-                                Продолжить с Google
-                            </a>
-                        </div>
-                        <div class="row my-3">
-                            <div class="col">
-                                <div class="small">
-                                    * Нажав на кнопку Вы даете согласие на обработку Ваших персональных данных
-                                </div>
-                            </div>
+                        <div>
+                            <h3>Иванов</h3>
                         </div>
                     </div>
-                </form>
+                    <div class="col-lg-3">
+                        <div class="small gray">
+                            Имя
+                        </div>
+                        <div>
+                            <h3>Иван</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="small gray">
+                            Отчество
+                        </div>
+                        <div>
+                            <h3>Иванович</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-lg-3">
+                        <div class="small gray">
+                            Телефон
+                        </div>
+                        <p>
+                            + 49 012 345 67 89
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="small gray">
+                            Email
+                        </div>
+                        <p>
+                            Ivanov_I_I@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="small gray">
+                            Дата рождения
+                        </div>
+                        <p>
+                            01/01/01
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="small gray">
+                            Пол
+                        </div>
+                        <p>
+                            мужской
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="small gray">
+                            Загрузить фото
+                        </div>
+                        <div class="form-group">
+                            <input type="file" class="form-control-file" id="">
+                        </div>
+                        <button class="btn px-3 mt-4">
+                            Изменить данные
+                            <img class="ml-3" src="assets/i/arrow.svg" alt="arrow">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end mt-4 mt-lg-0">
+            <div class="col-lg-8 cabinet_info__box py-3">
+                <h4>Логин и пароль</h4>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="small gray">
+                            Логин
+                        </div>
+                        <p>
+                            Ivanov_I_I@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <button class="btn px-3 mt-2">
+                            Изменить данные
+                            <img class="ml-3" src="assets/i/arrow.svg" alt="arrow">
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
 
 <footer class="py-4">
     <div class="container">

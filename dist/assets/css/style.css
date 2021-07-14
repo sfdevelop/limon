@@ -11229,8 +11229,20 @@ h3 {
     font-family: "Barkentina Test";
 }
 
+.cabinet_more h5 {
+    font-family: "Barkentina Test";
+}
+
+.cabinet_info h4 {
+    font-family: "Barkentina Test";
+}
+
 .red {
     background: red;
+}
+
+.gray {
+    color: #707070;
 }
 
 .bg-left {
@@ -12045,4 +12057,42 @@ footer ul a:hover {
     background: -o-linear-gradient(left top, #d0d832 0, #54b036);
     background: linear-gradient(to right bottom, #d0d832 0, #54b036);
     border: olive;
+}
+
+.cabinet_info img {
+    border-radius: 25px 0px 0px 0px;
+}
+
+.cabinet_info__box {
+    border-radius: 25px 0px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cabinet_info__box .btn {
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #d0d832), to(#54b036));
+    background: -o-linear-gradient(left top, #d0d832 0, #54b036);
+    background: linear-gradient(to right bottom, #d0d832 0, #54b036);
+    border: olive;
+}
+
+.cabinet_more .img-radius {
+    border-radius: 25px 0px 0px 0px;
+}
+
+.cabinet_more__box {
+    border-radius: 25px 0px 0px 0px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cabinet_more p {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #000;
+    padding-right: 15px;
 }

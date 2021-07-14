@@ -1,34 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
-    font-family: "Barkentina Test";
-    src: url("../fonts/8735.otf");
+  font-family: "Barkentina Test";
+  src: url("../fonts/8735.otf");
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .display-1 {
-    color: $white;
-    text-transform: uppercase;
-    line-height: 1.2;
-    font-family: Barkentina Test;
-    font-size: calc(2vw + 1rem);
+  color: $white;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: Barkentina Test;
+  font-size: calc(2vw + 1rem);
 }
 
 h2 {
-    font-family: "Barkentina Test";
-    font-size: calc(2vw + 0.7rem);
+  font-family: "Barkentina Test";
+  font-size: calc(2vw + 0.7rem);
 }
 
 h1 {
-    font-family: "Barkentina Test";
-    font-weight: normal;
-    font-size: calc(2vw + 0.9rem);
-    text-align: center;
-    color: #000;
+  font-family: "Barkentina Test";
+  font-weight: normal;
+  font-size: calc(2vw + 0.9rem);
+  text-align: center;
+  color: #000;
 }
-h3{
-    font-family: "Barkentina Test"; 
+
+h3 {
+  font-family: "Barkentina Test";
+}
+.cabinet_more{
+  h5{
+    font-family: "Barkentina Test";
+  }
+}
+.cabinet_info {
+  h4 {
+    font-family: "Barkentina Test";
+  }
 }
