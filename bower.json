@@ -18,6 +18,7 @@
 	"dependencies": {
 		"jQuery": "Jquery#^3.5.1",
 		"lazyload": "^3.2.2",
-		"slick-carousel": "^1.8.1"
+		"slick-carousel": "^1.8.1",
+		"bootstrap-datepicker": "latest"
 	}
 }
