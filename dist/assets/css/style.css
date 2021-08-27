@@ -12019,6 +12019,10 @@ a.close.disabled {
     h1 {
         font-size: 38px !important;
     }
+
+    .brad_top {
+        padding-top: 10px !important;
+    }
 }
 
 @font-face {
@@ -12961,4 +12965,10 @@ footer ul a:hover {
 .input-group-addon i {
     font-size: 30px;
     color: #54B036;
+}
+
+.fon_top_contacts {
+    display: block;
+    height: 70px;
+    background: #1d2228;
 }
